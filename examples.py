@@ -20,7 +20,9 @@ board2.set_owner(35, 0)
 board2.set_armies(35,1)
 board2.set_owner(39, 0)
 board2.set_armies(39,1)
-board2.plot_board()
+
+path = [5,37,4,34,35,36,0,6,31]
+board2.plot_board( path)
 
 board3 = copy.deepcopy(board2)
 board3.set_owner(34, 1)
